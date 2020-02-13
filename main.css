@@ -23,28 +23,28 @@
      }
  
  .picture {
-     background-color:lightblue;
+     background-color:gray;
      width: 320px;
      height: 250px;
      margin-top: 25px;
      margin-bottom: 30px;
  }
  h1  {
-     background-color: gray;
+     background-color: lightgray;
      width: 400px;
      height: 100px;
      font-size: 18px;
  }
  
  h2 {
-     background-color: gray;
+     background-color: lightgray;
      width: 100%;
      padding-left: 15px;
      text-align: center;
  }
  
  p {
-   background-color: lightcoral;
+   background-color: lightslategray;
        width: 320px;
      height: 250px;
      margin-top: 25px;
