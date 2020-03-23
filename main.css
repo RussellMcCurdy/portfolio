@@ -57,7 +57,7 @@ main {
    width: 50%;
    flex-grow: 1;
  }
- p {
+ p, a {
    padding: 15px;
    font-size: 20px;
    flex-grow: 1;
@@ -66,7 +66,6 @@ main {
  }
  footer {
    text-align: center;
- 
  }
 
 .demoPic {
@@ -126,10 +125,13 @@ main {
   display: block;
   }
 
-#email {
+.link {
   font-size: 20px;
-  padding-bottom: 20px;
   color: brown;
+}
+
+.contact {
+  padding-bottom: 30px;
 }
  
  @media screen and (max-width: 380px) {
@@ -193,7 +195,7 @@ main {
    width: 50%;
    flex-grow: 1;
  }
- p {
+ p, a {
    padding: 15px;
    font-size: 16px;
    flex-grow: 1;
@@ -261,8 +263,15 @@ main {
   display: block;
   }
 
-#email {
-  font-size: 20px;
-  padding-bottom: 20px;
+.link {
+  font-size: 12px;
   color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact {
+  width: 100%;
+  padding: 30px;
 }
